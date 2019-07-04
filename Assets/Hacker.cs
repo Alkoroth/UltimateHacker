@@ -79,6 +79,7 @@ public class Hacker : MonoBehaviour
     {
         currentScreen = Screen.Password;
         Terminal.WriteLine("You have selected level: " + level);
+        Terminal.ClearScreen();
         switch (level)
         {
             case 1:
